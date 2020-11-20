@@ -2,11 +2,11 @@
 
 - **String**
 
-![image-20201111213316226](https://gitee.com/icecandy/imgbed/raw/master/Java/20201111213317.png)
+![image-20201111213316226](https://gitee.com/icecandy/imgbed/raw/master/Java/基础/20201111213317.png)
 
 - **AbstractStringBuilder、StringBuffer、StringBuilder**
 
-![image-20201111213339288](https://gitee.com/icecandy/imgbed/raw/master/Java/20201111213340.png)
+![image-20201111213339288](https://gitee.com/icecandy/imgbed/raw/master/Java/基础/20201111213340.png)
 
 ## 二、String
 

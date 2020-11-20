@@ -27,7 +27,7 @@ Boolean isSuccess
 
  在阿里巴巴Java开发手册中关于这一点，有过一个『强制性』规定：
 
-![image-20201109224320593](https://gitee.com/icecandy/imgbed/raw/master/Java/20201109224321.png)
+![image-20201109224320593](https://gitee.com/icecandy/imgbed/raw/master/Java/基础/20201109224321.png)
 
  那么，为什么会有这样的规定呢？我们看一下POJO中布尔类型变量不同的命名有什么区别吧。
 
@@ -98,7 +98,7 @@ public boolean is<PropertyName>();
 public void set<PropertyName>(boolean m);
 ```
 
-![image-20201109224412400](https://gitee.com/icecandy/imgbed/raw/master/Java/20201109224413.png)
+![image-20201109224412400](https://gitee.com/icecandy/imgbed/raw/master/Java/基础/20201109224413.png)
 
 通过对照这份JavaBeans规范，我们发现，在Model4中，变量名为isSuccess，如果严格按照规范定义的话，他的getter方法应该叫isIsSuccess。但是很多IDE都会默认生成为isSuccess。
 
@@ -221,7 +221,7 @@ Model3[isSuccess=false]
 
  引用以下R大关于阿里巴巴Java开发手册这条规定的评价（https://www.zhihu.com/question/55642203）：
 
-![image-20201109224539078](https://gitee.com/icecandy/imgbed/raw/master/Java/20201109224540.png)
+![image-20201109224539078](https://gitee.com/icecandy/imgbed/raw/master/Java/基础/20201109224540.png)
 
 >  所以，**在定义POJO中的布尔类型的变量时，不要使用isSuccess这种形式，而要直接使用success !**
 
@@ -288,7 +288,7 @@ default model : Model[success=null, failure=false]
 
  在阿里巴巴Java开发手册中，对于POJO中如何选择变量的类型也有着一些规定： 
 
-![image-20201109224741354](https://gitee.com/icecandy/imgbed/raw/master/Java/20201109224742.png)
+![image-20201109224741354](https://gitee.com/icecandy/imgbed/raw/master/Java/基础/20201109224742.png)
 
 这里建议我们使用包装类型，原因是什么呢？
 

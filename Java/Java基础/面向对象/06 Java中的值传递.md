@@ -62,7 +62,7 @@ public void sout(String name) { //形式参数为 name
 
 **传值调用是指在调用函数时将实际参数复制一份传递到函数中，传引用调用是指在调用函数时将实际参数的引用直接传递到函数中。**
 
-![1](https://gitee.com/icecandy/imgbed/raw/master/Java/20201109212150.gif)
+![1](https://gitee.com/icecandy/imgbed/raw/master/Java/基础/20201109212150.gif)
 
 所以，两者的最主要区别就是是直接传递的，还是传递的是一个副本。
 
@@ -148,7 +148,7 @@ print in main , user is User{name='hollischuang', gender='Male'}
 
  我们先回到上面的例子中来，看一下调用过程中实际上发生了什么？
 
-![image-20201109212304768](https://gitee.com/icecandy/imgbed/raw/master/Java/20201109212305.png)
+![image-20201109212304768](https://gitee.com/icecandy/imgbed/raw/master/Java/基础/20201109212305.png)
 
 在参数传递的过程中，实际参数的地址0X1213456被拷贝给了形参。这个过程其实就是值传递，只不过传递的值得内容是对象的应用。
 
@@ -179,7 +179,7 @@ print in main , user is User{name='Hollis', gender='Male'}
 
  再看一下整个过程中发生了什么：
 
-![image-20201109212336571](https://gitee.com/icecandy/imgbed/raw/master/Java/20201109212337.png)
+![image-20201109212336571](https://gitee.com/icecandy/imgbed/raw/master/Java/基础/20201109212337.png)
 
 这个过程，就好像你复制了一把钥匙给到你的朋友，你的朋友拿到你给他的钥匙之后，找个锁匠把他修改了一下，他手里的那把钥匙变成了开他家锁的钥匙。这时候，他打开自己家，就算是把房子点了，对你手里的钥匙，和你家的房子来说都是没有任何影响的。
 

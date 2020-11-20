@@ -2,7 +2,7 @@
 
  String对象是 Java 中使用最频繁的对象之一，所以 Java 公司也在不断的对String对象的实现进行优化，以便提升String对象的性能，String对象的优化过程大致如下：
 
-![image-20201111210759475](https://gitee.com/icecandy/imgbed/raw/master/Java/20201111210808.png)
+![image-20201111210759475](https://gitee.com/icecandy/imgbed/raw/master/Java/基础/20201111210808.png)
 
 ### 1.1、在 Java6 以及之前的版本中
 
@@ -103,7 +103,7 @@
 String s = "abcd";
 ```
 
-![image-20201111211108986](https://gitee.com/icecandy/imgbed/raw/master/Java/20201111211110.png)
+![image-20201111211108986](https://gitee.com/icecandy/imgbed/raw/master/Java/基础/20201111211110.png)
 
  `s`中保存了string对象的引用。箭头可以理解为“存储他的引用”。
 
@@ -113,7 +113,7 @@ String s = "abcd";
 String s2 = s;
 ```
 
-![image-20201111211206080](https://gitee.com/icecandy/imgbed/raw/master/Java/20201111211207.png)
+![image-20201111211206080](https://gitee.com/icecandy/imgbed/raw/master/Java/基础/20201111211207.png)
 
 `s2`保存了相同的引用值，因为他们代表同一个对象。
 
@@ -123,7 +123,7 @@ String s2 = s;
 s = s.concat("ef");
 ```
 
-![image-20201111211245305](https://gitee.com/icecandy/imgbed/raw/master/Java/20201111211246.png)
+![image-20201111211245305](https://gitee.com/icecandy/imgbed/raw/master/Java/基础/20201111211246.png)
 
 `s`中保存的是一个重新创建出来的string对象的引用。
 
